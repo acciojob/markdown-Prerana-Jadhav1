@@ -10,3 +10,30 @@ button{
     justify-content: center;
     align-items: center;
 }
+
+.markdown-editor {
+    display: flex;
+    height: 100vh;
+}
+
+.textarea {
+    flex: 1;
+    padding: 20px;
+    font-family: monospace;
+    font-size: 16px;
+    border: none;
+    resize: none;
+    background-color: #eceff1;
+}
+
+.preview {
+    flex: 1;
+    padding: 20px;
+    background-color: #e8eaf6;
+    overflow-y: auto;
+}
+
+.loading {
+    flex: 1;
+    padding: 20px;
+}
